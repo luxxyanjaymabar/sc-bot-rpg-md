@@ -32,11 +32,11 @@ runtime = process.uptime()
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"SC : https://github.com/LuiXyz/sc-bot-rpg-md","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"SC : Ea","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
 
 					//m.reply(teks)
-					let jawab = `😅👆\n\n`.trim()
+					let jawab = `Pencuri\n\n`.trim()
    await conn.send2ButtonDoc(m.chat, jawab, wm, `Own`, `${usedPrefix}owner`, `Sumbangan`, `${usedPrefix}.donasi`, fliveLoc)				
 }
 handler.help = ['sc']
