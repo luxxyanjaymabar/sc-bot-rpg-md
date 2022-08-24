@@ -32,11 +32,11 @@ runtime = process.uptime()
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"SC : https://github.com/LuiXyz/kaper-bot","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"Link Gc Dibawah, Join Yahh!!","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
 
 					//m.reply(teks)
-					let jawab = `\n\nhttps://chat.whatsapp.com/FtneXqaNJ837T36mC5VJXw\n\n`.trim()
+					let jawab = `\n\nhttps://chat.whatsapp.com/CIv0mTBUteK8zy7crxdOj7\n\n`.trim()
    await conn.send2ButtonDoc(m.chat, jawab, wm, `Own`, `${usedPrefix}owner`, `Sumbangan`, `${usedPrefix}.donasi`, fliveLoc)				
 }
 handler.command = /^(gcbott)$/i
