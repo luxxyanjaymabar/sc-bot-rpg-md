@@ -36,7 +36,7 @@ runtime = process.uptime()
 	}
 
 					//m.reply(teks)
-					let jawab = `Pencuri\n\n`.trim()
+					let jawab = `Sc Chat Owner\n\n`.trim()
    await conn.send2ButtonDoc(m.chat, jawab, wm, `Own`, `${usedPrefix}owner`, `Sumbangan`, `${usedPrefix}.donasi`, fliveLoc)				
 }
 handler.help = ['sc']
