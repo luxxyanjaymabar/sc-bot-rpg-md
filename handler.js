@@ -31,12 +31,12 @@ module.exports = {
         global.img = pickRandom(global.waifu)
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = 'Powered By'
-        global.author = 'Anjim'
-        //global.author = 'The.sad.boy01'
+        global.packname = 'LuccyBot'
+        global.author = 'By LuxxyVFX'
+        //global.author = 'LuxxyVFX'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = 'Bot by AhmdLui 🥶🥶'
-        global.colong1 = 'Ciss 📸'
+        global.wm = 'Bot LuxxyVFX'
+        global.colong1 = 'LuxxyVFX Maling Stiker'
         global.colong2 = ''
         global.kontak2 = [
         ['62895336282144', '𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'drakblue3@gmail.com', true],
